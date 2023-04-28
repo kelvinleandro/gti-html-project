@@ -1,8 +1,8 @@
 :root {
     --roxo: #5E5998;
     --glauco: #768DB2;
-    --marrom: #7B7263;
-    --cinza-claro: #D7D9D7;
+    --space-cadet: #1B1840;
+    --powder-blue: #B9C8E1;
 }
 
 header {
@@ -10,7 +10,8 @@ header {
 }
 
 header ul li {
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
     margin: 10px 20px;
 }
 
@@ -29,7 +30,6 @@ nav {
 .logo {
     max-width: 150px;
     max-height: 100px;
-    /* margin: 0 auto; */
 }
 
 a {
@@ -49,9 +49,9 @@ button {
 }
 
 .my-btn {
-    padding: 8px 12px;
+    padding: 10px;
     background-color: var(--glauco);
-    border-radius: 15%;
+    border-radius: 15px;
     transition: .3s;
 }
 
@@ -66,6 +66,27 @@ button {
 
 .title {
     text-align: center;
+}
+
+.banner-text {
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.banner-text h1 {
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding: 5px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, .5);
+}
+
+.banner-text h2 {
+    margin-top: 0;
+    padding: 5px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, .5);
 }
 
 .avatar-img {
