@@ -5,7 +5,6 @@
     --glauco: #768DB2;
     --space-cadet: #1B1840;
     --powder-blue: #B9C8E1;
-    --another-blue: #A7B5CB;
 }
 
 body {
@@ -18,7 +17,8 @@ body {
 }
 
 .bg-2 {
-    background-color: var(--another-blue);
+    background-color: var(--space-cadet);
+    color: white;
 }
 
 header {
@@ -66,13 +66,13 @@ button {
 
 .my-btn {
     padding: 10px;
-    background-color: var(--glauco);
+    background-color: var(--roxo);
     border-radius: 15px;
     transition: .3s;
 }
 
 .my-btn:hover {
-    background-color: var(--roxo);
+    background-color: var(--space-cadet);
 }
 
 .content-center {
