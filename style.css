@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 :root {
     --roxo: #5E5998;
     --glauco: #768DB2;
     --space-cadet: #1B1840;
     --powder-blue: #B9C8E1;
+    --another-blue: #A7B5CB;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.bg-1 {
+    background-color: var(--powder-blue);
+}
+
+.bg-2 {
+    background-color: var(--another-blue);
 }
 
 header {
@@ -66,6 +82,7 @@ button {
 
 .title {
     text-align: center;
+    font-weight: 700;
 }
 
 .banner-text {
@@ -94,5 +111,6 @@ button {
 }
 
 .cartao {
-    max-width: 250px;
+    max-width: 230px;
+    margin-bottom: 40px;
 }
