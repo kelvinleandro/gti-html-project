@@ -83,6 +83,7 @@ button {
 .title {
     text-align: center;
     font-weight: 700;
+    margin-top: 15px;
 }
 
 .banner-text {
@@ -93,24 +94,27 @@ button {
 }
 
 .banner-text h1 {
-    font-weight: bolder;
     margin-bottom: 0;
     padding: 5px;
+    font-weight: 700;
     -webkit-text-stroke: 1px rgba(0, 0, 0, .5);
 }
 
 .banner-text h2 {
     margin-top: 0;
     padding: 5px;
-    font-weight: bold;
+    font-weight: 700;
     -webkit-text-stroke: 1px rgba(0, 0, 0, .5);
 }
 
 .avatar-img {
     border-radius: 50%;
+    max-width: 170px;
 }
 
 .cartao {
     max-width: 230px;
     margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
 }
