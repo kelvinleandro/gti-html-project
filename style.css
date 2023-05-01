@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    margin: 10px 20px;
+    margin: 5px 10px;
 }
 
 header ul li {
@@ -44,7 +44,7 @@ nav {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 100px;
     max-height: 100px;
 }
 
